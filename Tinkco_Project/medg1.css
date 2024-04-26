@@ -1,0 +1,26 @@
+body {
+    width: 150%;
+    height: 150%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:#fff;
+    transition: .10s;
+    position: absolute;
+    top: 37%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+  }
+
+
